@@ -1,0 +1,19 @@
+// Including bootstrap
+@import "bootstrap/bootstrap.scss";
+
+// Including variables and mixins
+@import "partial/variables";
+@import "partial/mixins";
+@import "partial/reset";
+@import "partial/predefined";
+@import "partial/sidebar";
+@import "partial/footer";
+@import "partial/override";
+
+
+
+
+// Component Scss
+@import "components/pagination";
+@import "components/button";
+
