@@ -1,47 +1,174 @@
 import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
-import Sidebar from "../../layouts/Public/Sidebar";
+import Sidebar from "../../layouts/Public/Sidebar"
+import SingleProduct from '../../components/Product'
+import Test from "../Test";
 
 const Product = () => {
   return (
     <div className="product-area">
       <Row>
-        <Col lg={2}>
+        <Col lg={3}>
           <Sidebar />
         </Col>
-        <Col lg={8}>
-          <Row>
+        <Col lg={9}>
+
+
+          <Row className="mt-3">
             <Col xs={6} md={3}>
-              <Card className="border-0 card-container">
-                <Card.Img
-                  className="image-container img-fluid"
-                  variant="top"
-                  src="images/8e-300x300.png"
-                />
-                <Card.Body className="card-content">
-                  <Card.Text className=" mb-1">
-                    Multicolor Cotton long sleeve shirt for men
-                  </Card.Text>
-                  <h5>BDT. 7,850</h5>
-                  <div className="d-flex justify-content-between">
-                    <p className="product-price">
-                      <del>BDT. 7,850</del>
-                    </p>
-                    <p className="product-price">34% Off</p>
-                  </div>
-                </Card.Body>
-              </Card>
+            <SingleProduct
+                img="images/8e-300x300.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
             </Col>
             <Col xs={6} md={3}>
-              xs=6 md=4
+              <SingleProduct
+                img="images/asset-1.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
             </Col>
             <Col xs={6} md={3}>
-              xs=6 md=4
+            <SingleProduct
+                img="images/asset-2.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
             </Col>
             <Col xs={6} md={3}>
-              xs=6 md=4
+              <SingleProduct
+                img="images/asset-3.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
             </Col>
           </Row>
+          <Row className="mt-3">
+            <Col xs={6} md={3}>
+            <SingleProduct
+                img="images/8e-300x300.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+              <SingleProduct
+                img="images/asset-1.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+            <SingleProduct
+                img="images/asset-2.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+              <SingleProduct
+                img="images/asset-3.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+          </Row>
+          <Row className="mt-3">
+            <Col xs={6} md={3}>
+            <SingleProduct
+                img="images/8e-300x300.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+              <SingleProduct
+                img="images/asset-1.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+            <SingleProduct
+                img="images/asset-2.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+              <SingleProduct
+                img="images/asset-3.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+          </Row>
+          <Row className="mt-3">
+            <Col xs={6} md={3}>
+            <SingleProduct
+                img="images/8e-300x300.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+              <SingleProduct
+                img="images/asset-1.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+            <SingleProduct
+                img="images/asset-2.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+            <Col xs={6} md={3}>
+              <SingleProduct
+                img="images/asset-3.png"
+                title="Multicolor Cotton long sleeve shirt for men"
+                price="BDT. 7,850"
+                oldPrice="BDT. 7,850"
+                off="34% Off"
+              />
+            </Col>
+          </Row>
+        </Col>
+        <Col lg={12}>
+          <Test/>
         </Col>
       </Row>
     </div>

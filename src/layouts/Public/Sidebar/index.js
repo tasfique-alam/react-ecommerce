@@ -1,14 +1,20 @@
-import React from "react";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { Form } from "react-bootstrap";
+import React from "react"
+import SingleSidebar from "./SingleSidebar";
+
+
+
 const Sidebar = () => {
+
   return (
+
+
     <div className="product-sidebar-area">
-      <div className="d-flex justify-content-between">
-        <label className="mb-0">Brand</label>
-        <MdKeyboardArrowDown className="align-self-center" />
-      </div>
-      <Form.Control type="text" placeholder="Search by Brands" />
+       <SingleSidebar title="Brand"/>
+       <SingleSidebar title="Country"/>
+       <SingleSidebar title="Fabric"/>
+       <SingleSidebar title="Pattern"/>
+       <SingleSidebar title="Clothing Style"/>
+       <SingleSidebar title="Fit Type"/>
     </div>
   );
 };

@@ -6,8 +6,7 @@ const Main = ({ children }) => {
 
     return (
         <Fragment>
-            <Header />
-            <div className="container">
+            <div className="p-5">
                 {children}
             </div>
             <Footer />

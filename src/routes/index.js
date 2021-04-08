@@ -19,14 +19,14 @@ const Routes = () => {
                     component={Product}
                     exact
                     layout={PublicMain}
-                    path='/product'
+                    path='/'
                     title='All Product'
                 />
                 <RouteWithLayout
                     component={Test}
                     exact
                     layout={PublicMain}
-                    path='/'
+                    path='/test'
                     title='Test'
                 />
             </Switch>

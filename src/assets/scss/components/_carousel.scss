@@ -24,15 +24,15 @@
                 padding: 5px 15px;
                 font-size: 15px;
                 position: absolute;
-                top: 30px;
-                left: 30px;
+                top: 17px;
+                left: 15px;            
             }
             &-date{
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 position: absolute;
-                bottom: 20px;
+                bottom: 0px;
                 left: 20px;
                 padding: 20px;
                 p{
@@ -65,16 +65,26 @@
     border-bottom-right-radius: 30px;
     position: absolute;
     top: 50%;
-    right: -25px;
+    right: -19px;
     font-size: 25px;
     font-weight: 600;
 }
 
 .bol{
     background-color: #00b55b;
-    width: 60px;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     border-radius: 100%;
     position: absolute;
-    top: -20px;
+    top: 16px;
+    left: -14px;
+}
+.bol-two{
+    background-color: #00b55b;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -16px;
+    right: 9px;
 }

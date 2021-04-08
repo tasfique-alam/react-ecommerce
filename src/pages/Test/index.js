@@ -4,6 +4,7 @@ import { BiCalendar } from 'react-icons/bi'
 import { RiMessage2Line } from 'react-icons/ri'
 import { AiOutlineLeft } from 'react-icons/ai'
 import { BsChevronRight } from 'react-icons/bs'
+import SingleItem from '../../components/SingleItem'
 
 
 
@@ -36,7 +37,7 @@ var settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
 };
@@ -57,36 +58,56 @@ const Test = () => {
                 </Col>
                 <Col lg={12}>
                     <span className="bol"></span>
+                    <span className="bol-two"></span>
                     <Slider {...settings}>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
-                            <Badge className="badge badge-success blog__carousel-single-item-badge">Health</Badge>
-                            <div className="blog__carousel-single-item-date">
-                                <BiCalendar color="white" />
-                                <p>12 Oct 2021</p>
-                                <div className="d-flex  ml-5">
-                                    <RiMessage2Line color="white" />
-                                    <p className="pl-1">26</p>
-                                </div>
-                            </div>
+                        
+                        <div>
+                            <SingleItem
+                                badge="NEWS"
+                                date="12 oct 2021"
+                                sms="26"
+                                img="/images/26824312324126.png"
+                            />
                         </div>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
+                        <div>
+                            <SingleItem
+                                badge="Health"
+                                date="12 oct 2021"
+                                sms="26"
+                                img="/images/26801830821918.png"
+                            />
                         </div>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
+                        <div>
+                            <SingleItem
+                                badge="Fashion"
+                                date="12 oct 2021"
+                                sms="26"
+                                img="/images/26824312324126.png"
+                            />
                         </div>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
+                        <div>
+                            <SingleItem
+                                badge="NEWS"
+                                date="12 oct 2021"
+                                sms="26"
+                                img="/images/26824312324126.png"
+                            />
                         </div>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
+                        <div>
+                            <SingleItem
+                                badge="NEWS"
+                                date="12 oct 2021"
+                                sms="26"
+                                img="/images/26801830821918.png"
+                            />
                         </div>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
-                        </div>
-                        <div className="blog__carousel-single-item">
-                            <img src="/images/26801830821918.png"></img>
+                        <div>
+                            <SingleItem
+                                badge="NEWS"
+                                date="12 oct 2021"
+                                sms="26"
+                                img="/images/26824312324126.png"
+                            />
                         </div>
 
 
