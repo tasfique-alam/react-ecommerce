@@ -1,5 +1,46 @@
 /* =================================== */
 /* Start Footer Area Style */
 
+
+
+
+.footer{
+    border-top: 2px solid #eee;
+    .bottom-icon{
+        padding: 50px;
+        img{
+            width: 70px;
+            height: 40px;
+            border: 1px solid #eee;
+            object-fit: contain;
+        }
+    }
+    .title{
+        font-size: 17px;
+        font-weight: 600;
+        padding:50px 20px 0px 20px;
+    }
+    .footer-sub{
+        padding: 50px;
+        label{
+            font-size: 25px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 /* End Footer Area Styles
 /* =================================== */

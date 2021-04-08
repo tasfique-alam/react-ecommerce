@@ -3,7 +3,7 @@ import { Row, Col, Form, ListGroup } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div className="p-5">
+    <div className="footer p-5">
       <Row>
         <Col xs={6} md={3}>
           <div className="image-container">
@@ -45,12 +45,12 @@ const Footer = () => {
           </div>
 
           <ListGroup horizontal className="justify-content-between">
-            <ListGroup.Item className="border-0">About zDrop</ListGroup.Item>
-            <ListGroup.Item className="border-0">FAQ & Support</ListGroup.Item>
-            <ListGroup.Item className="border-0">
+            <ListGroup.Item className="title border-0">About zDrop</ListGroup.Item>
+            <ListGroup.Item className="title border-0">FAQ & Support</ListGroup.Item>
+            <ListGroup.Item className="title border-0">
               Terms & Conditions
             </ListGroup.Item>
-            <ListGroup.Item className="border-0">Privacy Policy</ListGroup.Item>
+            <ListGroup.Item className="title border-0">Privacy Policy</ListGroup.Item>
           </ListGroup>
           <div className="d-flex justify-content-center">
             <div className="bottom-icon d-flex w-75 justify-content-between">
