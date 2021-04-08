@@ -1,0 +1,21 @@
+.blog{
+    &__title{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    &__des{
+        max-width: 432px;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    &__carousel{
+        &-single-item{
+            img{
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}

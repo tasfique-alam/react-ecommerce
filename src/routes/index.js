@@ -7,6 +7,7 @@ import RouteWithLayout from "./RouteWithLayout"
 import PublicMain from "../layouts/Public/Main"
 
 import Product from "../pages/AllProduct"
+import Test from "../pages/Test"
 
 
 const Routes = () => {
@@ -20,6 +21,13 @@ const Routes = () => {
                     layout={PublicMain}
                     path='/product'
                     title='All Product'
+                />
+                <RouteWithLayout
+                    component={Test}
+                    exact
+                    layout={PublicMain}
+                    path='/'
+                    title='Test'
                 />
             </Switch>
         </Router>
