@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-const SingleProduct = ({ img, title, price, oldPrice, offer }) => {
+const SingleProduct = ({ img, title, price, oldPrice, off }) => {
 
     return (
 
@@ -20,7 +20,7 @@ const SingleProduct = ({ img, title, price, oldPrice, offer }) => {
                     <p className="product-price">
                         <del>{oldPrice}</del>
                     </p>
-                    <p className="product-price">{offer}</p>
+                    <p className="product-price-offer">{off}</p>
                 </div>
             </Card.Body>
         </Card>
